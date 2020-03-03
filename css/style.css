@@ -36,10 +36,7 @@ p {
 img {
     width: 100%;
 }
-.burger{
-    display: none;
-    cursor: pointer;
-}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -48,6 +45,14 @@ nav {
     background-color: #5d4954ac;
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
+}
+nav img {
+    width: 300px;
+    position: absolute;
+    top: 2rem;
+    left:14rem;
+    
+    transform: translate(-50%, -50%);
 }
 .navlinks a{
     color: whitesmoke;
@@ -71,6 +76,10 @@ nav {
     margin: 5px;
     transition: all 0.3s ease; 
 }
+.burger{
+    display: none;
+    cursor: pointer;
+}
 .showcase {
     width: 100%;
     height: 93vh;
@@ -86,7 +95,7 @@ nav {
     height:100%;
     z-index: 1;
     background: rgba(0,0,0,0.2);
-    box-shadow: inset 100px 100px 100px #000000, inset -100px -100px 100px #000000;
+    box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
     z-index: -1;
 
 }
@@ -95,18 +104,7 @@ nav {
     background-color: #5d4954;
     height: 83px;
     z-index: 2;
-  
-
 }
-nav img {
-    width: 300px;
-    position: absolute;
-    top: 2rem;
-    left:14rem;
-    
-    transform: translate(-50%, -50%);
-}
-
 .showcase-top a {
     position: absolute;
     top: 50%;
@@ -345,8 +343,8 @@ nav img {
 }
 
 @media (max-width: 960px) {
-
-    .showcase {
+    
+.showcase {
     height: 70vh;
 }
 
@@ -354,13 +352,14 @@ nav img {
     display: none;
 }
 
-.showcase-top img {
-    width: 264px;
-    top: 30%;
-    left: 5%;
-    transform: translate(0);
+.nav img {
+    width: 200px;
+    position: absolute;
+    top: 2rem;
+    left:8rem;
+    
+    transform: translate(-50%, -50%);
 }
-
 .showcase-content h1 {
     font-size: 3.7rem;
     line-height: 1;
@@ -395,11 +394,21 @@ nav img {
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 .showcase::after {
     background: rgba(0, 0, 0, 0.2);
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
     z-index: -1;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8.5vh;
+    background-color: #5d4954;
+    font-family: 'Poppins', sans-serif ;
+    -webkit-font-smoothing: antialiased;
+    z-index: +2;
 }
 .showcase-content{
     margin-top:4rem;
@@ -482,7 +491,7 @@ nav img {
 body {
     background: black;
     -webkit-font-smoothing: antialiased;
-    z-index: +2;
+ 
     overflow-x: hidden;
 
     
@@ -537,11 +546,7 @@ body {
     body {
         overflow-x: fixed;
         overflow-x: hidden;
-        
-       
-        
-        
-    }
+   }
     nav {
         background-color: #5d4954;
         overflow-x: scroll none;
