@@ -393,16 +393,23 @@ nav {
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
 }
 .showcase-content{
-    margin-top:5rem;
+    margin-top:4rem;
 }
 .showcase-content h1 {
     font-size: 3.5rem;
     line-height: 1;
     
 }
+.showcase-top img {
+    width: 200px;
+    position: absolute;
+    /* top: 50%;
+    left:15%;
+    transform: translate(-50%, -50%); */
+}
 
 .showcase-content p {
-    font-size:px;
+    font-size:18px;
 }
 
 #tab-1-content .tab-1-content-inner {
@@ -425,14 +432,14 @@ nav {
 .burger{
     display: block;
     position: absolute;
-    right:50px;
+    right:35px;
     bottom:22px;
    
 }
 
 
 .btn-xl {
-    font-size: 1rem;
+    font-size: .75rem;
     padding: 1.2rem 1.6rem;
     text-transform: uppercase;
 }
