@@ -392,10 +392,13 @@ nav {
     background: rgba(0, 0, 0, 0.2);
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
 }
-
+.showcase-content{
+    margin-top:5rem;
+}
 .showcase-content h1 {
     font-size: 3.5rem;
     line-height: 1;
+    
 }
 
 .showcase-content p {
@@ -436,7 +439,9 @@ nav {
 .btn-tab-1-inner{
     margin-left: 0;
 }
-
+.btn-login{
+    display: none;
+}
 
 
 /* NAVIGATION*/
