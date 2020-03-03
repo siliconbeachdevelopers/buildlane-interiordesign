@@ -436,6 +436,9 @@ nav img {
     grid-gap: 2rem;
     text-align: center;
 }
+#tab-3-content p {
+    overflow-x: scroll;
+}
 .burger{
     display: block;
     position: absolute;
