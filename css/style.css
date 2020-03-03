@@ -532,8 +532,9 @@ body {
 
 @media screen and (max-width:768px){
     body {
+        overflow-x: fixed;
         overflow-x: hidden;
-        position: fixed;
+        
        
         
         
