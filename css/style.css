@@ -6,6 +6,7 @@
    box-sizing: border-box;
    margin:0;
    padding: 0; 
+   
 }
 body {
     font-family: 'Arial, sans-serif' ;
@@ -13,6 +14,7 @@ body {
     -webkit-text-stroke: 0.45px;
     background: #000;
     color:#999;
+   
 }
 
 ul {
@@ -472,19 +474,21 @@ nav img {
     box-sizing: border-box; 
     z-index: +2;
     
+    
 }
 body {
     background: black;
     -webkit-font-smoothing: antialiased;
     z-index: +2;
     overflow-x: hidden;
+
     
 }
  nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 9vh;
+    min-height: 8.5vh;
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
@@ -529,18 +533,20 @@ body {
 @media screen and (max-width:768px){
     body {
         overflow-x: hidden;
+        position: fixed;
+       
         
         
     }
     nav {
         background-color: #5d4954;
-
+        overflow-x: scroll none;
         z-index: 2;
     }
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 100%;
+        height: 109%;
         top: 8vh;
         background-color: #5d4954;
         display: flex;
@@ -550,6 +556,7 @@ body {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         z-index: +3;
+       
     }
     .loginlink {
         display: block;
