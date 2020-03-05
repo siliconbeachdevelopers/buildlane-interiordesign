@@ -14,10 +14,7 @@ body {
     -webkit-text-stroke: 0.45px;
     background: #000;
     color:#999;
-    overflow-x: none;
-    overflow-x: scroll none;
-    overflow-x: fixed;
-   
+    
 }
 
 ul {
@@ -342,6 +339,7 @@ nav img {
 
 .btn-login{
     background-color: #ffb4ac;
+    
 }
 
 @media (max-width: 960px) {
@@ -397,7 +395,12 @@ nav img {
 }
 
 @media (max-width: 768px) {
-.showcase::after {
+
+body{
+    
+    overflow: hidden;
+}
+    .showcase::after {
     background: rgba(0, 0, 0, 0.2);
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
     z-index: -1;
@@ -411,6 +414,7 @@ nav {
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
     z-index: +2;
+    
 }
 .showcase-content{
     margin-top:4rem;
@@ -451,8 +455,8 @@ nav {
 nav img {
     width: 200px;
     position: absolute;
-    top: 2rem;
-    left:8rem;
+    top: 2.2rem;
+    left:7.5rem;
     transform: translate(-50%, -50%);
 }
 
@@ -483,7 +487,7 @@ nav img {
 body {
     background: black;
     -webkit-font-smoothing: antialiased;
-    overflow-x: none;
+    overflow-x: hidden;
 
     
 }
@@ -496,7 +500,7 @@ body {
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
     z-index: +2;
-    overflow-x: none;
+    overflow-x: hidden;
     
 }
 .logo{
@@ -571,8 +575,8 @@ body {
     .burger{
         position:absolute;
         display: block;
-        top: 18px;
-        right: 3rem;
+        top: 20px;
+        right: 2rem;
     }
     
 }
