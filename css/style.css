@@ -396,9 +396,9 @@ nav img {
 
 @media (max-width: 768px) {
 
-body{
+body {
     
-    overflow: hidden;
+    overflow-x: hidden;
 }
     .showcase::after {
     background: rgba(0, 0, 0, 0.2);
@@ -495,7 +495,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8.5vh;
+    min-height: 9vh;
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
@@ -546,7 +546,7 @@ body {
    }
     nav {
         background-color: #5d4954;
-        overflow-x: scroll none;
+        overflow-x: hidden;
         z-index: 2;
     }
     .navlinks{
