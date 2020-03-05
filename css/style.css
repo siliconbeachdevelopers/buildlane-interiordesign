@@ -55,6 +55,10 @@ nav img {
     
     transform: translate(-50%, -50%);
 }
+.showcase-content p.about {
+    margin-top: 17rem;
+    font-size: 20px;
+}
 .navlinks a{
     color:  whitesmoke !important;
     text-decoration: none;
@@ -119,14 +123,14 @@ nav img {
     font-weight: 700;
     font-size: 5.2rem;
     line-height:1.1;
-    margin: 0 0 2rem;
+    margin: 0 0 0rem;
     text-shadow: 2px 2px black
 }
 .showcase-content p {
     text-transform: uppercase;
     color: #fff;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 31px;
     line-height: 1.25;
     margin: 0 0 2rem;
     text-shadow: 2px 2px black
@@ -419,6 +423,10 @@ body {
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
     
 }
+.showcase-content p.about {
+    margin-top: 13rem;
+    font-size: .7rem;
+}
 
 
 nav {
@@ -438,8 +446,9 @@ nav {
     margin-top:4rem;
 }
 .showcase-content h1 {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     line-height: 1;
+    margin-top: 27px;
     
 }
 .showcase-top img {
@@ -449,7 +458,8 @@ nav {
 }
 
 .showcase-content p {
-    font-size:18px;
+    font-size:14px;
+    margin-bottom:1.5rem;
 }
 
 #tab-1-content .tab-1-content-inner {
@@ -480,7 +490,7 @@ nav img {
 
 
 .btn-xl {
-    font-size: 1rem;
+    font-size: 10px;
     padding: 1.2rem 1.6rem;
     text-transform: uppercase;
 }
