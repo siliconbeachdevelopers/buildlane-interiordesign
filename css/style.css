@@ -231,21 +231,27 @@ nav img {
 } 
 /*  FOOTER  */
 .footer {
-    max-width: 75%;
+    background-color: #6cb6a4ee ;
+    max-width: 90%;
     margin: 1rem auto;
     overflow:auto;
+    
 }
 .footer, .footer a {
-    color: #999;
-    font-size: 0.9rem;
+    color: black;
+    font-size: 1rem;
+    
 }
 .footer p {
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1rem;
+    margin-left: 2rem; 
+   
 }
 .footer .footer-cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+    margin-left: 2rem;
 }
 .footer li{
     line-height: 1.9rem;
@@ -551,7 +557,7 @@ body {
         width:30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index: +4;
+        z-index: 3;
         
        
     }
