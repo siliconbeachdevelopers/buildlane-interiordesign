@@ -6,6 +6,7 @@
    box-sizing: border-box;
    margin:0;
    padding: 0; 
+   overflow-x: hidden;
    
 }
 body {
@@ -85,6 +86,7 @@ nav img {
     height: 93vh;
     position: relative;
     background: url('../livingroom.jpg') no-repeat center center/cover;
+    overflow-y: hidden;
 }
 .showcase::after {
     content:'';
@@ -97,19 +99,6 @@ nav img {
     background: rgba(0,0,0,0.2);
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
     z-index: -1;
-
-}
-.showcase-top {
-    position: relative;
-    background-color: #5d4954;
-    height: 83px;
-    z-index: 2;
-}
-.showcase-top a {
-    position: absolute;
-    top: 50%;
-    right:0;
-    transform: translate(-50%, -50%);
 }
 .showcase-content{
     position: relative;
@@ -145,6 +134,7 @@ nav img {
     padding-top:1rem;
     border-bottom: 3px solid #3d3d3d;
     border-right: none;
+    
 }
 .tabs .container   {
     display: grid;
@@ -393,14 +383,17 @@ nav img {
 @media (max-width: 768px) {
 
 body {
-    
-    overflow-x: hidden;
+  overflow-x: hidden;
+ 
+  
 }
-    .showcase::after {
+.showcase::after {
     background: rgba(0, 0, 0, 0.2);
     box-shadow: inset 80px 80px 100px #000000, inset -80px -80px 100px #000000;
-    z-index: -1;
+    
 }
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -409,7 +402,9 @@ nav {
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif ;
     -webkit-font-smoothing: antialiased;
-    z-index: +2;
+    overflow-x: hidden;
+    z-index: +3;
+    
     
 }
 .showcase-content{
@@ -511,6 +506,7 @@ body {
     justify-content: space-around;
     width:40%;
     margin-left: 45rem;
+    z-index: 3;
 }
 .navlinks a{
     color: whitesmoke;
@@ -537,14 +533,11 @@ body {
 }
 
 @media screen and (max-width:768px){
-    body {
-        overflow-x: none;
-        overflow-x: hidden;
-   }
+    
     nav {
         background-color: #5d4954;
         overflow-x: hidden;
-        z-index: 2;
+      
     }
     .navlinks{
         position: absolute;
@@ -558,8 +551,8 @@ body {
         width:30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index: +3;
-        overflow-x: none;
+        z-index: +4;
+        
        
     }
     .loginlink {
