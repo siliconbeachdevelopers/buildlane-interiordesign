@@ -295,8 +295,6 @@ nav img {
     display:inline-block;
     background: #6cb6a4ee;
     color: black;
-   
-    /*       TOP      Bottom    */
     padding: 0.4rem    1.3rem;
     font-size: center;
     text-align: center;
@@ -334,8 +332,6 @@ nav img {
 .btn-tab-1-inner{
     margin-left: 7.5rem;
 }
-
-
 
 .btn-login{
     background-color: #ffb4ac;
@@ -472,10 +468,11 @@ nav img {
 .btn-login{
     display: none;
 }
+}
 
 
 /* NAVIGATION*/
-}
+
 * {
     margin: 0px;
     padding: 0px;
