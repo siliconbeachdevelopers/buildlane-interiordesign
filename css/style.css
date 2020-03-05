@@ -44,23 +44,23 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: #5d4954ac;
-    font-family: 'Poppins', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 nav img {
     width: 300px;
     position: absolute;
-    top: 2rem;
+    top: 2.5rem;
     left:14rem;
     
     transform: translate(-50%, -50%);
 }
 .navlinks a{
-    color: whitesmoke;
+    color:  whitesmoke !important;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
    
 }
 .loginlink {
@@ -69,6 +69,9 @@ nav img {
 
 .navlinks li{
     list-style: none;
+   
+
+   
 }
 .burger div{
     width: 35px;
@@ -232,7 +235,8 @@ nav img {
 /*  FOOTER  */
 .footer {
     background-color: #6cb6a4ee ;
-    max-width: 90%;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
     margin: 1rem auto;
     overflow:auto;
     
@@ -243,7 +247,7 @@ nav img {
     
 }
 .footer p {
-    margin-bottom: 1rem;
+    margin-bottom: .9rem;
     margin-left: 2rem; 
    
 }
@@ -252,6 +256,7 @@ nav img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     margin-left: 2rem;
+    margin-bottom: 10px;
 }
 .footer li{
     line-height: 1.9rem;
@@ -291,7 +296,7 @@ nav img {
     display:inline-block;
     background: #6cb6a4ee;
     color: black;
-    padding: 0.4rem    1.3rem;
+    padding: 0.2rem    1.3rem;
     font-size: center;
     text-align: center;
     border: none;
@@ -299,9 +304,11 @@ nav img {
     margin-right: 0.5;
     outline: none;
     box-shadow: 0 1px 0 rbga(0,0,0, 0.45);
-    border-radius: 2px;
+    border-radius: 50px;
+    
 
 }
+
 .btn:hover{
     opacity: 0.9;
 
@@ -310,12 +317,20 @@ nav img {
     border-radius: 5px;
 
 }
-.btn-xl {
-    font-size: 2rem;
-    padding:1.5rem 2.1rem;
-   
-
+a.btn.btn-xl{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    
 }
+.btn-xl {
+    font-size: 1.5rem;
+    padding: 1.4rem 2rem;
+    text-transform: uppercase;
+}
+
+
 .btn-lg {
     font-size: 1rem;
     padding:0.8rem 1.3rem;
@@ -323,7 +338,11 @@ nav img {
     
 }
 .btn-icon {
-    margin-left: 1rem;
+    margin-left: 1.3rem;
+    margin-right: 10px;
+    padding-top: 2px
+    
+
 }
 .btn-tab-1-inner{
     margin-left: 7.5rem;
@@ -331,6 +350,8 @@ nav img {
 
 .btn-login{
     background-color: #ffb4ac;
+    font-size: 1.4rem;
+    color: black;
     
 }
 
@@ -459,7 +480,7 @@ nav img {
 
 
 .btn-xl {
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 1.2rem 1.6rem;
     text-transform: uppercase;
 }
@@ -501,29 +522,28 @@ body {
     overflow-x: hidden;
     
 }
-.logo{
-    color: whitesmoke;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;;
-}
+
 .navlinks{
     display: flex;
     justify-content: space-around;
     width:40%;
     margin-left: 45rem;
     z-index: 3;
+    font-family: 'Montserrat', sans-serif;
 }
 .navlinks a{
-    color: whitesmoke;
+    color: #6cb6a4;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
+    text-shadow: 2px 2px black
    
 }
 .navlinks li{
     list-style: none;
+    
 }
 .burger{
     display: none;
@@ -557,6 +577,7 @@ body {
         width:30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        text-shadow: 2px 2px black;
         z-index: 3;
         
        
